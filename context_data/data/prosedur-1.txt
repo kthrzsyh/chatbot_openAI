@@ -1,0 +1,179 @@
+keterangan :
+1. MAS = Mobile Account Solution
+2. CMS = Content Management System
+
+
+topic : Perubahan nomor telepon Konsumen
+PIC : Area Account Solution Head / Regional Account Solution Department Head
+cara monitor : 
+
+1  Verifikasi perubahan nomor telepon konsumen
+
+2. Lakukan Approvalperubahan nomor telepon konsumen
+
+3. Pastikan perubahan nomor telepon yang telah diapprove sama dengan yang ada di Report Approval Change Contact
+langkah pada MAS :
+\n1. Login MAS
+\n2. Pilih menu approval
+\n3. Pilih type > Change Contact
+\n4. Lakukan analisa
+\n5. Approve / Reject
+\n6. Data berubah di sigma financore H+1 setelah approve
+langkah pada CMS :
+1. Login CMS
+2. Menu Approval > Type Change Number Phone
+3. Lakukan analisa
+4. Lakukan analisa
+5. Approve / Reject
+6. Data berubah di sigma financore H+1 setelah approve
+
+topic : Perubahan alamat Konsumen
+PIC : Area Account Solution Head / Regional Account Solution Department Head
+cara monitoring : 
+1. Verifikasi perubahan alamat konsumen
+2. Jika perubahan alamat konsumen teriadi pada Area
+Account Solution Head yang sama, maka perubahan alamat konsumen dilakukan oleh Area Account Solution Head
+3. Jika perubahan alamat terjadi pada Area Account Solution Head yang berbeda, maka :
+    a. Area Account Solution Head wajib melakukan koordinasi dengan Branch Account Solution Head dan Area Account Solution Head lainnya untuk menentukan cabang yang akan menangani konsumen yang pindah alamat.
+    b. Approval perubahan alamat konsumen dilakukan oleh Regional Account Solution Department Head
+Langkah pada MAS :
+1. Login MAS
+2. Pilih menu approval
+3. Pilih type > Change Addres
+4. Lakukan analisa
+5. Approve / Reject
+6. Data berubah di sigma financore H+1 setelah approve
+Langkah pada CMS :
+1. Login CMS
+2. Menu Approval > Type Change Addres
+3. Lakukan analisa
+4. Lakukan analisa
+5. Approve / Reject
+6. Data berubah di sigma financore H+1 setelah approve
+
+topic : Pembayaran yang diterima oleh Field Acount Consultant / Problem Account Solution
+PIC : Field Account Coordinator / Problem Account Coordinator
+cara monitoring : 
+1 Lakukan balancing Report Pembayaran yang telah diperiksa sebelumnya dengan bukti bayar yang disetol oleh Field Acoount Consultant / Problem Account Consultant sepertiberikut :
+a. Cara bayar tunai
+- Pastikan jumlah transaksi pada Report Pembayaran dengan cara bayar tunai sesuai dengan jumlah Kuitansi Pembayaran Lembar Putih yang diterima dari Field Account Consultant / Problem Account Consultant.
+- Pastikan nominal pembayaran yang tertera pada Report Pembayaran sesuai dengan nominal pembayaran yang tertera pada Kuitansi Pembayaran Lembar Putih yang diterima dari Field Account Consultant / Problem Account Consultant.
+- Pastikan Bukti Setor Collection sudah diverifikasi oleh Unit Treasury (jika terdapatpembayaran yang disetorkan ke bank).
+b. Cara bayar debit
+- Pastikan jumlah transaksi pada Report Pembayaran dengan cara debit sesuai dengan
+jumlah Kuitansi Pembayaran Lembar Putih yang diterima dari Field Account Consultant / Problem
+Account Consultant.
+- Pastikan nominal pembayaran yang tertera di
+Report Pembayaran sesuai dengan nominal pembayaran yang tertera pada Kuitansi Pembayaran Lembar Putih yang diterima dari Field Account Consultant / Problem Account Consultant.
+c. Cara bayar PDC
+- Pastikan jumlah transaksi pada Report
+Pembayaran dengan cara bayar PDC
+sesuai dengan jumlah Tanda Terima PDC yang diterima oleh Field Account Consultant / Problem Account Consultant.
+- Pastikan nominal pembayaran yang tertera pada Report Pembayaran dengan cara PDC sesuai dengan nominal pembayaran yang tertera pada Tanda Terima PDC yang diterima dari Field Account Consultant / Problem Account Consultant.
+d. Jika Field Account Consultant / Problem Account Consultant menggunakan TTS, pastikan nomor
+pada TTS yang diserahkan sesuai dengan nomor TTS yang dipinjam.
+e. Untuk konsumen yang telah melakukan pembayaran melalui bank transfer dan memberikan bukti bayai Pastikan pembayaran angsuran konsumen telah dialokasi di Financore.
+
+topic : Tracking Kunjungan yang dilakukan oleh Field Account Consultant / Problem Account Consultant
+PIC : Field Account Coordinator/ Problem Account Coordinator
+cara monitoring : 
+Jika diperlukan, Pejabat Berwenang Account Solution & Recovery dapat melakukan monitoring kunjungan Field Account Consultant / Problem Account Consultant dengan cara berikut :
+1. Tarik Report Tracking Collector pada Aplikasi Web Mobile Account Solution
+2. Bandingkan kesesuaian alamat yang dikunjungi oleh Field Account Consultant / Problem Account Consultant dengan Report Penanganan
+langkah pada MAS :
+1. Login MAS
+2. Pilih menu tracking
+3. Pilih Cabang (default) > Search
+4. Menampilkan posisi realtime collector update setiap 30 menit
+langkah pada CMS :
+1. Login CMS
+2. Menu Report
+3. Tracking Collector
+4. Download report
+5. Analisa titik geotaging
+
+topic : Tracking Kunjungan yang dilakukan oleh Field Account Consultant /Problem Account Consultant
+PIC : Field Account Coordinator / Problem Account Coordinator
+cara monitoring : 
+1. Tarik Report Hasil Penanganan pada Aplikasi Web Mobile Account Solution.
+2. Lakukan tindak lanjut penanganan konsumen menunggak sesuai dengan ketentuan yang berlaku.
+
+topic : Absensi Field Account Consultant / Problem Account Consultant
+PIC : Field Account Coordinator / Problem Account Coordinator
+cara monitoring : 
+1. Tarik Report Absensi pada Aplikasi Web Mobile Account Solution.
+2. Pastikan waktu Check In Field Account Consultant / Problem Account Consultant sesuai dengan Ketentuan Terkait Jam Kerja Karyawan
+3. Pastikan waktu Check Out Field Account Consultant /Problem Account Consultant sesuai dengan Ketentuan Terkait Jam Kerja Karyawan
+langkah pada CMS :
+1. Login CMS
+2. Menu Report
+3. Absensi
+4. Hanya jabatan FAC, PAC & ARC yang data absensi yang di upload ke HRIS
+
+topic : Cara cek Report Rencana Kunjungan Harian (RKH)
+langkah pada CMS :
+1. Login CMS
+2. Menu Report
+3. Pilih menu Report RKH
+4. Pilih cabang penaganan (default)
+5. Download & Lakukan analisa 
+
+topic : Cara Cek Report Hasil Penaganan Kunjungan MAS
+langkah pada CMS :
+1. Login CMS
+2. Menu Report
+3. Pilih Report Hasil Penaganan
+4. Pilih cabang penganan (default)
+5. Pilih tanggal from to
+6. Download & lakukan analisa
+
+topic : Cara Cek Report Follow Up by Phone
+langkah pada CMS :
+1. Login CMS
+2. Menu Report
+3. Pilih Report Hasil Follow Up by Phone
+4. Pilih cabang penganan (default)
+5. Pilih tanggal from to
+6. Download & lakukan analisa
+
+topic : Cara Cek Report Create VA send to WA
+langkah pada CMS :
+1. Login CMS
+2. Menu Report
+3. Pilih Report VA send to WA
+4. Pilih cabang penganan (default)
+5. Pilih tanggal from to
+6. Download & lakukan analisa
+
+topic : denda
+jawaban : 
+Perjanjian Pembiayaan Konsumen pasal 14 perihal Ikhtisar Fasilitas Pembiayaan Konsumen di pasal 6 perihal Biaya-Biaya Lain.Misal yang tercantum adalah : 0.4%; maka perhitungan denda angsurannya adalah sebagai berikut : 0.4% x besar angsuran x jumlah hari keterlambatan
+
+1 juta = 1000000
+10 juta = 10000000
+
+1% = 0.001
+
+angsuran = 4.000.000
+terlambat = 10 hari 
+contoh denda = 0.4% * 4.000.000 * 10 = 160.000
+
+kamu siapa ? : kamu adalah AVIRA (Asistant Virtual ASR) di BCA Finance. 
+ASR adalah Account Solutions Recovery yang menangani konsumen menunggak di BCA Finance.
+Pertanyaan diluar BCA Finance jawab saja tidak tahu.
+
+Context = Bunga Mobil Baru di BCA Finance
+Jawaban = Bagi yang berencana membeli mobil baru, manfaatkan promo bunga special dari BCA Finance (Berlaku hingga 31 December 2023):
+1. Bunga 1 tahun 3%
+2. Bunga 2 tahun 3,50%
+3. Bunga 3 tahun 3,75%
+4. Bunga 4 tahun 4,25%
+
+Context = Bunga Mobil Bekas di BCA Finance
+Jawaban = Bagi yang berencana membeli mobil bekas, manfaatkan promo bunga special dari BCA Finance (Berlaku hingga 31 December 2023):
+1. Bunga 8.75% untuk tenor 1 - 2 tahun
+2. Bunga 9% untuk tenor 3 - 4 tahun
+
+Context = Simulasi Kredit
+Jawaban = Untuk melakukan Simulasi Kredit bisa dengan membuka link berikut https://bcafinance.co.id/simulasi-kredit , selain BCA Finance tidak dapat di jawab, berikan informasi "pertanyaan tidak dapat kami jawab"
+
